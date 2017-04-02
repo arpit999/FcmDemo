@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "36717331407",
+    "firebase_url": "https://fcmdemo-1b660.firebaseio.com",
+    "project_id": "fcmdemo-1b660",
+    "storage_bucket": "fcmdemo-1b660.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36717331407:android:10961bfa83a2b563",
+        "android_client_info": {
+          "package_name": "com.production.hometech.fcmdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36717331407-9bidsicg5d6924s66o2fi17uhbs878k3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.production.hometech.fcmdemo",
+            "certificate_hash": "d4e80885354ee548d918458fff2b70e92f563907"
+          }
+        },
+        {
+          "client_id": "36717331407-ofgfiqvt7v4lvan6kg2vap2rf5a3ct2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi-eHxi-b0KDzJV4ff82fX4gRwmmjih50"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36717331407-ofgfiqvt7v4lvan6kg2vap2rf5a3ct2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
