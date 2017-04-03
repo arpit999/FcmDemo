@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 import java.io.IOException;
 
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 //    paste asset files into the C:\wamp\www\fcmtest(make a folder fcmtest) and create database(fcm_db) and import file fcm_info.sql for store token
 
 //    Make sure server key for the firebase with long value
-    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
             progressDialog.dismiss();
+            Toast.makeText(MainActivity.this, ""+responseString, Toast.LENGTH_SHORT).show();
 
         }
     }
