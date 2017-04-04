@@ -56,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
             progressDialog = new ProgressDialog(MainActivity.this);
             progressDialog.setMessage("Please wait....");
             progressDialog.setCancelable(true);
+
+
             progressDialog.show();
         }
 
