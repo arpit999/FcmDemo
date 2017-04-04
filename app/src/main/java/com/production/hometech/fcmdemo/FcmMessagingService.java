@@ -28,14 +28,15 @@ public class FcmMessagingService extends FirebaseMessagingService {
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
         PendingIntent pendingIntent = PendingIntent.getActivity(this,0,intent,PendingIntent.FLAG_ONE_SHOT);
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this);
+
+        builder.setContentTitle(title);
+        builder.setContentText(message);
 //        for notiication default sound
         Uri alarmSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         builder.setSound(alarmSound);
-//        for vibrate 
+//        for vibrate
         long[] vibrate = { 0, 100, 200, 300 };
         builder.setVibrate(vibrate);
-        builder.setContentTitle(title);
-        builder.setContentText(message);
         builder.setSmallIcon(R.mipmap.ic_launcher);
         builder.setAutoCancel(true);
         builder.setContentIntent(pendingIntent);
